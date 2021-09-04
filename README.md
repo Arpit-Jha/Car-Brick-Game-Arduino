@@ -25,21 +25,21 @@ When receiving the value, PHPoC WiFi Shield send it to Web Browser via Websocket
 2. Upload new UI to PHPoC shield
 3. Upload Arduino code
 
-# 1. Set up WiFi connection for PHPoC Shield 
+## 1. Set up WiFi connection for PHPoC Shield 
 
 See this instruction [http://www.phpoc.com/support/manual/p4s-347_user_manual/contents.php?id=network_first_setup].
 
-# 2. Upload new Web User Interface to PHPoC Shield
+## 2. Upload new Web User Interface to PHPoC Shield
 
 1. Download PHPoC source code remote_racing_game.php.
 2. Upload it to PHPoC shield using PHPoC debugger according to this instruction[http://www.phpoc.com/support/manual/phpoc_debugger_manual/contents.php?id=major_upload].
 
-# 3. Upload Arduino Code
+## 3. Upload Arduino Code
 
 1. Install PHPoC Library for Arduino (https://www.arduino.cc/en/Guide/Libraries).
 2. Upload Arduino code to Arduino
 
-# Final Step
+## Final Step
 
 1. Click serial button on Arduino IDE to get the IP address.
 2. Open web browser, type http:// relace_ip_address_here/remote_racing_game.php
